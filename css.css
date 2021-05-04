@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+
+/* HEADER---------------------------------- */
+header {
+    position: relative;
+}
+
+.top-header {
+    width: 100%;
+    min-height: 20px;
+    background-color: #1175B7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.top-header img {
+    margin: 0px 10px;
+}
+
+.top-header .num {
+    margin: 0px 40px;
+}
+
+.top-header p {
+    display: inline;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bottom-header {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.Menu {
+    display: flex;
+    align-items: center;
+}
+
+.Menu ul {
+   list-style-type: none;
+}
+
+.Menu li {
+    display: inline;
+    margin: 0px 15px;
+}
+
+.Menu a {
+    text-decoration: none;
+    color: #1175B7;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Menu a:hover {
+    text-shadow: 1px 0px black;
+}
+
+.call {
+    background-color: #F6A937;
+    padding: 13px 17px;
+    color: white;
+    border-radius: 3px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+
+.call:hover {
+    background-color: #f19202;
+}
+
+/* SLIDER ----------------------- */
+.slider {
+    position: relative;
+}
+
+.slider, .item_slider img {
+    width: 100%;
+}
+
+.slider .slick-dots {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    position: absolute;
+    bottom: 20px;
+    left: 47%;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider .slick-dots button {
+    font-size: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: none;
+    margin: 0 4px;
+    background-color: grey;
+}
+
+.slider .slick-dots .slick-active button {
+    background-color: white;
+}
+/* ------------------------------ */
+.text-center {
+    position: absolute;
+    margin: -33% 30%;
+    width: 40%;
+}
+.text-center p {
+    color: white;
+    text-align: center;
+    font-family:'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 7px;
+}
+
+.text-center h1 {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 7px;
+}
+
+.text-center .btn-cent {
+    background-color: #F6A937;
+    padding: 13px 17px;
+    border-radius: 3px;
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-decor a {
+    text-decoration: none;
+    color: white;
+}
+
+.text-center .btn-cent:hover {
+    background-color: #f19202;
+}
+/* ------------------------------------ */
+
+
+
+
